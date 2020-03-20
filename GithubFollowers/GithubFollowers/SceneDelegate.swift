@@ -25,6 +25,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = tabbar
         window?.makeKeyAndVisible()
+        
+        configureNavigaionBar()
     }
     
     
@@ -50,6 +52,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         searchVC.title = "Search"
         searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         return UINavigationController(rootViewController: searchVC)
+    }
+    
+    func configureNavigaionBar() {
+        UINavigationBar.appearance().tintColor = .systemGreen
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

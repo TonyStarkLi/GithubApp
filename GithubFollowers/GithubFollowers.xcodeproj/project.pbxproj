@@ -95,7 +95,6 @@
 				78A4EBD723FA0CA900012980 /* Main.storyboard */,
 				78A4EBDA23FA0CAC00012980 /* Assets.xcassets */,
 				78A4EBDC23FA0CAC00012980 /* LaunchScreen.storyboard */,
-				78A4EBDF23FA0CAC00012980 /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -128,6 +127,7 @@
 		78A4EBD023FA0CA900012980 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				78A4EBDF23FA0CAC00012980 /* Info.plist */,
 				784010C62426B2FB00460085 /* Model */,
 				784010C52426B26B00460085 /* Support */,
 				784010C42426B24000460085 /* Extensions */,

@@ -17,6 +17,10 @@
 		78A4EBD923FA0CA900012980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A4EBD723FA0CA900012980 /* Main.storyboard */; };
 		78A4EBDB23FA0CAC00012980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A4EBDA23FA0CAC00012980 /* Assets.xcassets */; };
 		78A4EBDE23FA0CAC00012980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A4EBDC23FA0CAC00012980 /* LaunchScreen.storyboard */; };
+		78B6F3302425905400FE1CEC /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6F32F2425905400FE1CEC /* GFTitleLabel.swift */; };
+		78B6F3322425912200FE1CEC /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6F3312425912200FE1CEC /* GFBodyLabel.swift */; };
+		78B6F334242591A200FE1CEC /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6F333242591A200FE1CEC /* GFAlertVC.swift */; };
+		78B6F336242595BE00FE1CEC /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6F335242595BE00FE1CEC /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		78A4EBDA23FA0CAC00012980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A4EBDD23FA0CAC00012980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A4EBDF23FA0CAC00012980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B6F32F2425905400FE1CEC /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		78B6F3312425912200FE1CEC /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		78B6F333242591A200FE1CEC /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		78B6F335242595BE00FE1CEC /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,10 @@
 				78A1663923FCC88800479E9B /* GFButton.swift */,
 				78A1663B23FCCA8400479E9B /* GFTextField.swift */,
 				78831A1C24244A76007DDEF7 /* FollowerListVC.swift */,
+				78B6F32F2425905400FE1CEC /* GFTitleLabel.swift */,
+				78B6F3312425912200FE1CEC /* GFBodyLabel.swift */,
+				78B6F333242591A200FE1CEC /* GFAlertVC.swift */,
+				78B6F335242595BE00FE1CEC /* UIViewController+Ext.swift */,
 			);
 			path = GithubFollowers;
 			sourceTree = "<group>";
@@ -153,7 +165,11 @@
 				78A1663C23FCCA8400479E9B /* GFTextField.swift in Sources */,
 				78A1663823FCC57200479E9B /* SearchVC.swift in Sources */,
 				78A1663A23FCC88800479E9B /* GFButton.swift in Sources */,
+				78B6F336242595BE00FE1CEC /* UIViewController+Ext.swift in Sources */,
 				78A1663623FCC52D00479E9B /* FavoritesListVC.swift in Sources */,
+				78B6F334242591A200FE1CEC /* GFAlertVC.swift in Sources */,
+				78B6F3322425912200FE1CEC /* GFBodyLabel.swift in Sources */,
+				78B6F3302425905400FE1CEC /* GFTitleLabel.swift in Sources */,
 				78831A1D24244A76007DDEF7 /* FollowerListVC.swift in Sources */,
 				78A4EBD223FA0CA900012980 /* AppDelegate.swift in Sources */,
 				78A4EBD423FA0CA900012980 /* SceneDelegate.swift in Sources */,
